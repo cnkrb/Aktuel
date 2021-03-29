@@ -2,6 +2,8 @@
 
 <h3> Marketlere ait aktüel broşürlerin takip edilmesi (Bitti) </h3>
 
+<h3> Market ve broşürler panelden eklenmektedir. Uygulama api aracılığıyla haberleşmektedir. WEb laravel ile geliştirilmiştir. </h3>
+
 ### Anasayfa 
 <img src="aktuel/anasayfa.jpg"  height="400"  >
 
