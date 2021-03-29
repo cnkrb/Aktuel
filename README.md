@@ -1,6 +1,6 @@
 # Aktüel Uygulaması 
 
-<h3> Marketlerin aktüel broşürlerinin takip eilmesi (Bitti) </h3>
+<h3> Marketlere ait aktüel broşürlerin takip edilmesi (Bitti) </h3>
 
 ### Anasayfa 
 <img src="aktuel/anasayfa.jpg"  height="400"  >
