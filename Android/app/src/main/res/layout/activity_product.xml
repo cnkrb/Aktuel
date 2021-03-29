@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MarketFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="7"
+                android:background="@color/white"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:src="@drawable/back"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white"
+                    android:padding="10dp"
+                    android:id="@+id/back"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:id="@+id/name"
+                    android:background="@drawable/selector_white"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="@string/ara"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:src="@drawable/heart"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_white"
+                    android:padding="10dp"
+                    android:tag="black"
+                    android:id="@+id/fav"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/todo" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9280706421416251/9316759262"
+        android:layout_alignParentBottom="true">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

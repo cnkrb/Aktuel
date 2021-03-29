@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="14dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7"
+        android:background="@drawable/store_backround"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_weight="1.25"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:background="@drawable/name_bg"
+            android:text="Ad Soyad"
+            android:textColor="@color/text_light"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/market"
+            android:layout_width="match_parent"
+            android:layout_weight="4.5"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="false" />
+
+
+        <TextView
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:text="Markete Git"
+            android:layout_weight="1.25"
+            android:textAllCaps="false"
+            android:textColor="@color/text_light"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

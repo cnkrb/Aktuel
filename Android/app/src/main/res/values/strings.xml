@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bi Dolu Aktüel</string>
+    <string name="title_market">Marketler</string>
+    <string name="title_favorite">Favoriler</string>
+    <string name="title_add">Son Eklenler</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="market_bul">Market bul</string>
+    <string name="info">Uygulama Hakkında</string>
+    <string name="rate">Uygulamaya Puan verin</string>
+    <string name="app">Uygulama Ayarları</string>
+    <string name="star">Tarihi geçen aktüeller otomatik silinir.</string>
+    <string name="ara">Ara</string>
+    <string name="save">Kaydedilen Aktüeller</string>
+    <string name="mail">aktueldev@gmail.com</string>
+
+    <string name="banner">ca-app-pub-9280706421416251/9316759262</string>
+
+</resources>

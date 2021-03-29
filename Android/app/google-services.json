@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204224559580",
+    "firebase_url": "https://aktuel-304c0.firebaseio.com",
+    "project_id": "aktuel-304c0",
+    "storage_bucket": "aktuel-304c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204224559580:android:f12dfe1c5c6a6c0177b719",
+        "android_client_info": {
+          "package_name": "com.cenkkaraboa.aktelrnlerkatalou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204224559580-sahts190771pa7nvriqj5873nacvebrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAZsRaLtR_npuB9kVzTdeOrCnSjhRipd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204224559580-sahts190771pa7nvriqj5873nacvebrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
